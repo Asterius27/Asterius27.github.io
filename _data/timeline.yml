@@ -1,12 +1,12 @@
 - title: PhD Student in Computer Science
   from: 2024
   to: present
-  description: In 2024, I began my journey as a PhD student in Computer Science under the supervision of <a href="https://www.dais.unive.it/~calzavara/">Prof. Stefano Calzavara</a>. My research focuses on web security, particularly authentication and authorization systems used by modern web applications, as well as the formal verification of web security practices.
+  description: In 2024, I began my journey as a PhD student in Computer Science under the supervision of <a href="https://www.dais.unive.it/~calzavara/" target="_blank">Prof. Stefano Calzavara</a>. My research focuses on web security, particularly authentication and authorization systems used by modern web applications, as well as the formal verification of web security practices.
 
 - title: Master's Degree in Computer Science - Cybersecurity
   from: 2022
   to: 2024
-  description: In 2024, I graduated <i>cum laude</i> from Ca' Foscari University of Venice with a degree in Computer Science, specializing in cybersecurity. My thesis, titled <i>“A Whitebox Analysis of Session Management and Account Creation in Web Applications”</i>, was later published as a <a href="">research paper</a> at SecDev 2025.
+  description: In 2024, I graduated <i>cum laude</i> from Ca' Foscari University of Venice with a degree in Computer Science, specializing in cybersecurity. My thesis, titled <i>“A Whitebox Analysis of Session Management and Account Creation in Web Applications”</i>, was later published as a <a href="" target="_blank">research paper</a> at SecDev 2025.
 
 - title: Bachelor's Degree in Computer Science
   from: 2019
