@@ -1,9 +1,7 @@
 ### Site Settings ###
 title               : Simone Bozzolan
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      PhD Student in Computer Science @ Ca' Foscari University of Venice
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : Asterius27/Asterius27.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
@@ -25,23 +23,23 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Simone Bozzolan
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+  image             : https://media.licdn.com/dms/image/v2/C4D03AQFPsLITrL4_-w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1616445250208?e=1758153600&v=beta&t=oSEEISQ0x47VpPYcXQGw3SaZCa92oM9LZGsJG7Aik-E
+# behance           : your_username
 # dribbble          : your_username
   email             : simone.bozzolan@unive.it
-  facebook          : your_username
-  github            : your_username
+# facebook          : your_username
+  github            : Asterius27
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  linkedin          : simone-b-853672209
+# medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+# twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
