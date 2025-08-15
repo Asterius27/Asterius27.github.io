@@ -42,14 +42,14 @@ author:
 
 
 ### Posts ###
-permalink: /blog/:title
+# permalink: /blog/:title
 
 
 ### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:name
 
 
 ### Disqus ###
@@ -75,17 +75,17 @@ buymeacoffee:
 
 
 ### Defaults for collections ###
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "projects"
+#     values:
+#       layout: "page"
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       comments: false                                   # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###
