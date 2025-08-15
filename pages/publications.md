@@ -7,38 +7,40 @@ weight: 2
 
 <h2 class="mb-4">Publications</h2>
 
-{% assign pubs_by_year = site.data.publications | sort: 'year' | reverse %}
-{% assign current_year = "" %}
+{%- comment -%}
+Group by year, sort years desc, then list items.
+{%- endcomment -%}
+{% assign groups = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
 
-{% for pub in pubs_by_year %}
-  {% if pub.year != current_year %}
-    {% unless forloop.first %}
-      </div>
-    {% endunless %}
-    <h3 class="mt-4">{{ pub.year }}</h3>
-    <div class="list-group">
-    {% assign current_year = pub.year %}
-  {% endif %}
+{% for group in groups %}
+  <h3 class="mt-4">{{ group.name }}</h3>
 
-  <div class="card mb-3 shadow-sm border-0">
-    <div class="card-body">
-      <h5 class="card-title mb-1">{{ pub.title }}</h5>
-      <p class="card-text mb-1"><strong>Authors:</strong> {{ pub.authors }}</p>
-      <p class="card-text mb-2"><em>{{ pub.venue }}</em></p>
-      <div>
-        {% if pub.link %}
-          <a href="{{ pub.link }}" target="_blank" class="btn btn-primary btn-sm me-2">
-            Read Paper
-          </a>
-        {% endif %}
-        {% if pub.code %}
-          <a href="{{ pub.code }}" target="_blank" class="btn btn-outline-secondary btn-sm">
-            View Code
-          </a>
-        {% endif %}
+  {%- assign pubs = group.items -%}
+  {%- comment -%} Optionally sort within a year (e.g., by title) {%- endcomment -%}
+  {%- assign pubs = pubs | sort: 'title' -%}
+
+  {% for pub in pubs %}
+    <div class="card mb-3 shadow-sm border-0">
+      <div class="card-body d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
+        <div class="me-md-3">
+          <h5 class="card-title mb-1">{{ pub.title }}</h5>
+          <p class="mb-1"><strong>Authors:</strong> {{ pub.authors }}</p>
+          <p class="mb-0"><em>{{ pub.venue }}</em></p>
+        </div>
+
+        <div class="mt-2 mt-md-0 text-nowrap">
+          {% if pub.link %}
+            <a href="{{ pub.link }}" target="_blank" rel="noopener" class="btn btn-primary btn-sm me-2">
+              Read Paper
+            </a>
+          {% endif %}
+          {% if pub.code %}
+            <a href="{{ pub.code }}" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">
+              View Code
+            </a>
+          {% endif %}
+        </div>
       </div>
     </div>
-  </div>
-
+  {% endfor %}
 {% endfor %}
-</div>
