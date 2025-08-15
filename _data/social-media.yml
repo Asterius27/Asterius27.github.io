@@ -99,12 +99,12 @@ keybase:
 orcid:
   url   : https://orcid.org/
   icon  : fab fa-orcid      # From FontAwesome (https://fontawesome.com/icons)
-  color : A6CE39           # Hex color code for hover
+  color : a6ce39           # Hex color code for hover
 
 scholar:
   url   : https://scholar.google.com/
   icon  : fab fa-google-scholar      # From FontAwesome (https://fontawesome.com/icons)
-  color : 4285F4           # Hex color code for hover
+  color : 4285f4           # Hex color code for hover
 
 university:
   url   : https://www.unive.it/data/people/
