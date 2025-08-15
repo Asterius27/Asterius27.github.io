@@ -102,6 +102,6 @@ orcid:
   color : A6CE39           # Hex color code for hover
 
 scholar:
-  url   : https://scholar.google.com/citations?user=
+  url   : https://scholar.google.com/
   icon  : fab fa-google-scholar      # From FontAwesome (https://fontawesome.com/icons)
   color : 4285F4           # Hex color code for hover
