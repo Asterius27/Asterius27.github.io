@@ -1,3 +1,10 @@
+- title: "Behind the Curtain: A Server-Side View of Web Session Security"
+  authors: "Simone Bozzolan, Stefano Calzavara, Florian Hantke, Ben Stock"
+  venue: "IEEE Secure Development Conference (SecDev)"
+  year: 2025
+  link: ""
+  code: "https://github.com/Asterius27/BTC-paper-artifacts"
+
 - title: "Stochastic Models for Remote Timing Attacks"
   authors: "Simone Bozzolan, Diletta Olliaro, Stefano Calzavara, Andrea Marin, Gianfranco Balbo, Matteo Sereno"
   venue: "Proceedings on Privacy Enhancing Technologies Symposium (PoPETs)"

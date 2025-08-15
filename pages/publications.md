@@ -14,11 +14,11 @@ weight: 2
 
 {% for pub in group.items %}
 <div class="card mb-3 shadow-sm border-0">
-  <div class="card-body d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
+  <div class="card-body d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
     <div class="me-md-3">
-      <h5 class="card-title mb-1">{{ pub.title }}</h5>
+      <h5 class="card-title mb-2">{{ pub.title }}</h5>
       <p class="mb-1"><strong>Authors:</strong> {{ pub.authors }}</p>
-      <p class="mb-0"><em>{{ pub.venue }}</em></p>
+      <p class="mb-1"><em>{{ pub.venue }}</em></p>
     </div>
 
     <div class="mt-2 mt-md-0 text-nowrap">
