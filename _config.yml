@@ -18,6 +18,8 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - pages/blog.html
+  - pages/projects.html
 
 
 ### Author Info ###
@@ -94,3 +96,7 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+  - "_projects/*"
+  - "_posts/*"
+  - "projects/*"
+  - "posts/*"
