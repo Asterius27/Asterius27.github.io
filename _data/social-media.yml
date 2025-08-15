@@ -1,16 +1,6 @@
 # Get Icons  from : https://fontawesome.com/icons
 # Get Colors from : https://brandcolors.net/
 
-behance:
-  url   : https://www.behance.net/
-  icon  : fab fa-behance
-  color : 1769ff
-
-dribbble:
-  url   : https://dribbble.com/
-  icon  : fab fa-dribbble
-  color : 444444
-
 email:
   url   : "mailto:"
   icon  : fas fa-envelope
@@ -35,46 +25,16 @@ instagram:
   url   : https://www.instagram.com/
   icon  : fab fa-instagram
   color : 405de6
-  
-kaggle:
-  url   : https://www.kaggle.com/
-  icon  : fab fa-kaggle
-  color : 20beff
 
 linkedin:
   url   : https://www.linkedin.com/in/
   icon  : fab fa-linkedin-in
   color : 007bb5
 
-medium:
-  url   : https://medium.com/@
-  icon  : fab fa-medium
-  color : 00ab6c
-
-soundcloud:
-  url   : https://www.soundcloud.com/
-  icon  : fab fa-soundcloud
-  color : ff8800
-
-spotify:
-  url   : https://open.spotify.com/user/
-  icon  : fab fa-spotify
-  color : 1db954
-
 stackoverflow:
   url   : https://stackoverflow.com/u/
   icon  : fab fa-stack-overflow
   color : f48024
-
-tumblr:
-  url   : https://
-  icon  : fab fa-tumblr
-  color : 35465c
-
-twitch:
-  url   : https://www.twitch.tv/
-  icon  : fab fa-twitch
-  color : 6441a5
 
 twitter:
   url   : https://www.twitter.com/
@@ -103,10 +63,10 @@ orcid:
 
 scholar:
   url   : https://scholar.google.com/
-  icon  : fa-brands fa-google-scholar      # From FontAwesome (https://fontawesome.com/icons)
+  icon  : fab fa-brands fa-google-scholar      # From FontAwesome (https://fontawesome.com/icons)
   color : 4285f4           # Hex color code for hover
 
 university:
   url   : https://www.unive.it/data/people/
-  icon  : fa-solid fa-building-columns      # From FontAwesome (https://fontawesome.com/icons)
+  icon  : fab fa-solid fa-building-columns      # From FontAwesome (https://fontawesome.com/icons)
   color : 901010           # Hex color code for hover
