@@ -103,10 +103,10 @@ orcid:
 
 scholar:
   url   : https://scholar.google.com/
-  icon  : fab fa-google-scholar      # From FontAwesome (https://fontawesome.com/icons)
+  icon  : fa-brands fa-google-scholar      # From FontAwesome (https://fontawesome.com/icons)
   color : 4285f4           # Hex color code for hover
 
 university:
   url   : https://www.unive.it/data/people/
-  icon  : fab fa-building-columns      # From FontAwesome (https://fontawesome.com/icons)
+  icon  : fa-solid fa-building-columns      # From FontAwesome (https://fontawesome.com/icons)
   color : 901010           # Hex color code for hover
