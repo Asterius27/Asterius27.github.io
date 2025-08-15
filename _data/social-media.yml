@@ -59,15 +59,14 @@ keybase:
 orcid:
   url   : https://orcid.org/
   icon  : fab fa-orcid      # From FontAwesome (https://fontawesome.com/icons)
-  color : 4285f4           # Hex color code for hover
-# color : a6ce39
+  color : a6ce39           # Hex color code for hover
 
 scholar:
   url   : https://scholar.google.com/
-  icon  : fab fa-microsoft      # From FontAwesome (https://fontawesome.com/icons)
+  icon  : fab fa-google      # From FontAwesome (https://fontawesome.com/icons)
   color : 4285f4           # Hex color code for hover
 
 university:
   url   : https://www.unive.it/data/people/
-  icon  : fab fa-solid fa-building-columns      # From FontAwesome (https://fontawesome.com/icons)
+  icon  : fab fa-readme      # From FontAwesome (https://fontawesome.com/icons)
   color : 901010           # Hex color code for hover
