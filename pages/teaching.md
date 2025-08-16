@@ -28,19 +28,23 @@ weight: 4
 }
 </style>
 
-{% assign items_by_year = site.data.teaching.teaching | sort: "start" | reverse | group_by_exp:"item", "item.start | date: '%Y'" %}
+{% assign items = site.data.teaching.teaching | sort: "start" | reverse %}
+{% assign current_year = "" %}
 
-{% for year_group in items_by_year %}
-  <div class="teaching-year">{{ year_group.name }}</div>
-  {% for t in year_group.items %}
-    <div class="teaching-item">
-      <div class="role-course">
-        <strong>{{ t.role }}</strong> — <em>{{ t.course }}</em>
-      </div>
-      <div>
-        {% if t.professor %}{{ t.professor }}, {% endif %}{{ t.institution }}
-        {% if t.hours != "" %} • {{ t.hours }} hours{% endif %}
-      </div>
+{% for t in items %}
+  {% assign year = t.start | date: "%Y" %}
+  {% if year != current_year %}
+    <div class="teaching-year">{{ year }}</div>
+    {% assign current_year = year %}
+  {% endif %}
+
+  <div class="teaching-item">
+    <div class="role-course">
+      <strong>{{ t.role }}</strong> — <em>{{ t.course }}</em>
     </div>
-  {% endfor %}
+    <div>
+      {% if t.professor %}{{ t.professor }}, {% endif %}{{ t.institution }}
+      {% if t.hours != "" %} • {{ t.hours }} hours{% endif %}
+    </div>
+  </div>
 {% endfor %}
