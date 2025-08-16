@@ -34,7 +34,7 @@ weight: 3
 }
 </style>
 
-<h3 class="mt-4">Conference Talks</h3>
+<h3 class="mt-4">Conferences</h3>
 <div class="timeline">
   {% assign confs = site.data.talks.conferences | sort: "date" | reverse %}
   {% for talk in confs %}
@@ -48,7 +48,7 @@ weight: 3
   {% endfor %}
 </div>
 
-<h3 class="mt-4">Seminar Talks</h3>
+<h3 class="mt-4">Seminars</h3>
 <div class="timeline">
   {% assign sems = site.data.talks.seminars | sort: "date" | reverse %}
   {% for talk in sems %}

@@ -1,0 +1,20 @@
+teaching:
+  - role: "Teaching Assistant"
+    course: "<a href='https://www.unive.it/data/course/513758' target='_blank'>System Security</a> (Master's Degree in Computer Science)"
+    professor: "Prof. Riccardo Focardi"
+    institution: "Ca' Foscari University of Venice"
+    year: "2024"
+    hours: "30"
+
+  - role: "Tutor"
+    course: "<a href='https://www.unive.it/data/course/513737' target='_blank'>Web Security</a> (Master's Degree in Computer Science)"
+    professor: "Prof. Stefano Calzavara"
+    institution: "Ca' Foscari University of Venice"
+    year: "2025"
+    hours: "30"
+
+  - role: "Tutor & Course Coordinator"
+    course: "<a href='https://cyberchallenge.it/' target='_blank'>CyberChallenge.IT 2025</a>"
+    institution: "Ca' Foscari University of Venice"
+    year: "2025"
+    hours: ""
