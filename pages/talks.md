@@ -23,7 +23,7 @@ weight: 3
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -7px; /* centers the dot on the 2px line */
+  left: -32px; /* centers the dot on the 2px line */
   top: 6px;
   width: 14px;
   height: 14px;
