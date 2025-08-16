@@ -1,0 +1,21 @@
+conferences:
+  - title: "Stochastic Models for Remote Timing Attacks"
+    venue: "25th Privacy Enhancing Technologies Symposium PETs 2025"
+    date: "2025-07-17"
+    location: "Washington D.C., United States of America"
+
+  - title: "Stochastic Models for Remote Timing Attacks"
+    venue: "Joint National Conference on Cybersecurity ITASEC 2025"
+    date: "2025-02-05"
+    location: "Bologna, Italy"
+
+seminars:
+  - title: "Cookie Baker: Gray-Box Login Automation for Web Application Security Testing"
+    venue: "Ca' Foscari University of Venice"
+    date: "2025-04-10"
+    location: "Venice, Italy"
+  
+  - title: "Stochastic Models for Remote Timing Attacks"
+    venue: "Ca' Foscari University of Venice"
+    date: "2025-03-17"
+    location: "Venice, Italy"
