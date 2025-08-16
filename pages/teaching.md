@@ -8,43 +8,38 @@ weight: 4
 <h2 class="mb-4">Teaching Activity</h2>
 
 <style>
-.teaching-year {
+.teaching-list dt {
   font-weight: 600;
   color: #0d6efd; /* Bootstrap blue */
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+.teaching-list dd {
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 2px solid #dee2e6;
 }
-.teaching-item {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
+.teaching-list em {
+  color: #6c757d;
 }
-.teaching-item .role-course {
-  font-weight: 500;
-}
-.teaching-item small {
+.teaching-list .small {
   color: #6c757d;
 }
 </style>
 
-{% assign items = site.data.teaching.teaching | sort: "start" | reverse %}
-{% assign current_year = "" %}
-
-{% for t in items %}
-  {% assign year = t.start | date: "%Y" %}
-  {% if year != current_year %}
-    <div class="teaching-year">{{ year }}</div>
-    {% assign current_year = year %}
-  {% endif %}
-
-  <div class="teaching-item">
-    <div class="role-course">
-      <strong>{{ t.role }}</strong> — <em>{{ t.course }}</em>
-    </div>
-    <div>
+<dl class="teaching-list">
+  {% assign items = site.data.teaching.teaching | sort: "year" | reverse %}
+  {% assign current_year = "" %}
+  
+  {% for t in items %}
+    {% if t.year != current_year %}
+      <dt>{{ t.year }}</dt>
+      {% assign current_year = t.year %}
+    {% endif %}
+    <dd>
+      <strong>{{ t.role }}</strong> — <em>{{ t.course }}</em><br>
       {% if t.professor %}{{ t.professor }}, {% endif %}{{ t.institution }}
       {% if t.hours != "" %} • {{ t.hours }} hours{% endif %}
-    </div>
-  </div>
-{% endfor %}
+    </dd>
+  {% endfor %}
+</dl>
