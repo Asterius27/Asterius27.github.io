@@ -1,5 +1,5 @@
-- title: "Behind the Curtain: A Server-Side View of Web Session Security"
-  authors: "Simone Bozzolan, Stefano Calzavara, Florian Hantke, Ben Stock"
+- title: "Cookie Baker: Gray-box Login Automation for Web Application Security Testing"
+  authors: "Simone Bozzolan, Stefano Calzavara, Davide Porcu"
   venue: "International Journal of Information Security"
   year: 2025
   pdf: "/assets/papers/Automated_Gray_box_Auditing_for_Web_Authentication_and_Authorization_Flaws__IJIS_.pdf"

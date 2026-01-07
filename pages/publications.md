@@ -25,6 +25,9 @@ weight: 2
       {% if pub.link %}
         <a href="{{ pub.link }}" target="_blank" rel="noopener" class="btn btn-primary btn-sm me-2">Read Paper</a>
       {% endif %}
+      {% if pub.pdf %}
+        <a href="{{ pub.pdf }}" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm me-2">Open PDF</a>
+      {% endif %}
       {% if pub.code %}
         <a href="{{ pub.code }}" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">View Code</a>
       {% endif %}
