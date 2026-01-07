@@ -6,6 +6,13 @@ teaching:
     year: "2024"
     hours: "30"
 
+  - role: "Co-supervisor"
+    course: "<a href='https://hdl.handle.net/20.500.14247/24532' target='_blank'>Davide Porcu's Master's Thesis</a> (Cookie Baker: Gray-box Login Automation for Web Application Security Testing)"
+    professor: "Prof. Stefano Calzavara"
+    institution: "Ca' Foscari University of Venice"
+    year: "2025"
+    hours: ""
+
   - role: "Tutor"
     course: "<a href='https://www.unive.it/data/course/513737' target='_blank'>Web Security</a> (Master's Degree in Computer Science)"
     professor: "Prof. Stefano Calzavara"
@@ -18,3 +25,24 @@ teaching:
     institution: "Ca' Foscari University of Venice"
     year: "2025"
     hours: ""
+
+  - role: "Tutor"
+    course: "<a href='https://www.unive.it/data/course/561289' target='_blank'>Computer Programming and Data Management 1</a> (Master's Degree in Data Analytics for Business and Society)"
+    professor: "Prof. Salvatore Orlando"
+    institution: "Ca' Foscari University of Venice"
+    year: "2025"
+    hours: "30"
+
+  - role: "Tutor"
+    course: "<a href='https://www.unive.it/data/course/608545' target='_blank'>Security</a> (Bachelor's Degree in Computer Science)"
+    professor: "Prof. Riccardo Focardi"
+    institution: "Ca' Foscari University of Venice"
+    year: "2025"
+    hours: "30"
+
+  - role: "Tutor"
+    course: "<a href='https://www.unive.it/data/course/608538' target='_blank'>Oparating Systems 2</a> (Bachelor's Degree in Computer Science)"
+    professor: "Prof. Riccardo Focardi"
+    institution: "Ca' Foscari University of Venice"
+    year: "2026"
+    hours: "30"

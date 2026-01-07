@@ -1,4 +1,9 @@
 conferences:
+  - title: "Behind the Curtain: A Server-Side View of Web Session Security"
+    venue: "IEEE Secure Development Conference SecDev 2025"
+    date: "2025-10-16"
+    location: "Indianapolis, United States of America"
+
   - title: "Stochastic Models for Remote Timing Attacks"
     venue: "25th Privacy Enhancing Technologies Symposium PETs 2025"
     date: "2025-07-17"

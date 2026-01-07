@@ -20,8 +20,8 @@ weight: 2
       <p class="mb-1"><strong>Authors:</strong> {{ pub.authors }}</p>
       <p class="mb-0"><em>{{ pub.venue }}</em></p>
     </div>
-
-    <div class="mt-2 mt-md-0 text-nowrap ms-md-3">
+    <div style="width: 3rem;"></div>
+    <div class="mt-2 mt-md-0 text-nowrap">
       {% if pub.link %}
         <a href="{{ pub.link }}" target="_blank" rel="noopener" class="btn btn-primary btn-sm me-2">Read Paper</a>
       {% endif %}
