@@ -1,13 +1,23 @@
 - title: "Behind the Curtain: A Server-Side View of Web Session Security"
   authors: "Simone Bozzolan, Stefano Calzavara, Florian Hantke, Ben Stock"
+  venue: "International Journal of Information Security"
+  year: 2025
+  pdf: "/assets/papers/Automated_Gray_box_Auditing_for_Web_Authentication_and_Authorization_Flaws__IJIS_.pdf"
+  link: "https://doi.org/10.1007/s10207-025-01168-z"
+  code: "https://github.com/Asterius27/CookieBaker"
+
+- title: "Behind the Curtain: A Server-Side View of Web Session Security"
+  authors: "Simone Bozzolan, Stefano Calzavara, Florian Hantke, Ben Stock"
   venue: "IEEE Secure Development Conference (SecDev)"
   year: 2025
-  link: ""
+  pdf: "/assets/papers/Session_Management__SecDev25___Camera_Ready_.pdf"
+  link: "https://doi.org/10.1109/SecDev66745.2025.00022"
   code: "https://github.com/Asterius27/BTC-paper-artifacts"
 
 - title: "Stochastic Models for Remote Timing Attacks"
   authors: "Simone Bozzolan, Diletta Olliaro, Stefano Calzavara, Andrea Marin, Gianfranco Balbo, Matteo Sereno"
   venue: "Proceedings on Privacy Enhancing Technologies Symposium (PoPETs)"
   year: 2025
+  pdf: "/assets/papers/_Asse_To_Ve__Quantitative_Models_for_CyberSecurity__PETS25___Camera_Ready_.pdf"
   link: "https://doi.org/10.56553/popets-2025-0112"
   code: "https://github.com/Asterius27/SecPerf-Artifacts"
